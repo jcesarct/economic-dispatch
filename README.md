@@ -255,8 +255,3 @@ redistribución.
 Las correcciones y ampliaciones se gestionan mediante *issues*, ramas y *pull
 requests*. Consulte [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Contacto
-
-**JULIO CUENCA TINITANA**  
-Institución: **UNIVERSIDAD NACIONAL DE LOJA**  
-Correo: **julio.cuenca@unl.edu.ec**
