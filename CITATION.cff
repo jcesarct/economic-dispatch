@@ -16,5 +16,5 @@ keywords:
   - JuMP
 version: 1.0.0
 date-released: 2026-09-03
-repository-code: "https://github.com/USUARIO/despacho-economico-julia"
+repository-code: "https://github.com/jcesarct/economic-dispatch.git"
 license: MIT
