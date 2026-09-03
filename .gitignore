@@ -1,0 +1,36 @@
+# Archivos temporales de Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Resultados generados: se conservan solo los ejemplos seleccionados
+results/*
+!results/README.md
+!results/example_dispatch_results.csv
+!results/example_summary.csv
+
+# Archivos temporales de LaTeX
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Credenciales y configuración local
+.env
+*.key
+*.pem
+credentials.*
+secrets.*

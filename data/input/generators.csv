@@ -1,0 +1,4 @@
+generator,pmin_mw,pmax_mw,cost_usd_per_mwh
+G1,20,100,10
+G2,10,80,20
+G3,0,60,35

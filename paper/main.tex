@@ -1,0 +1,36 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[provide=*,spanish]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[numbers]{natbib}
+
+\title{Despacho económico uninodal en Julia}
+\author{NOMBRE DEL AUTOR}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Modelo}
+El problema minimiza el costo de operación sujeto al balance de potencia y a
+los límites de los generadores. El código y los datos deben citarse mediante
+sus registros de Zenodo \citep{softwareZenodo,datasetZenodo}.
+
+\section{Disponibilidad del código y los datos}
+El código está disponible en el
+\href{https://github.com/USUARIO/despacho-economico-julia}{repositorio de GitHub}.
+La versión exacta usada en este estudio se archivará con un
+\href{https://doi.org/10.5281/zenodo.DOI_SOFTWARE}{DOI de software en Zenodo}.
+Los datos y resultados se publicarán con un
+\href{https://doi.org/10.5281/zenodo.DOI_DATOS}{DOI de datos en Zenodo}.
+
+\bibliographystyle{plainnat}
+% Funciona tanto si Overleaf compila desde la raíz del repositorio
+% como si LaTeX se ejecuta dentro de la carpeta paper/.
+\IfFileExists{paper/references.bib}
+  {\bibliography{paper/references}}
+  {\bibliography{references}}
+\end{document}

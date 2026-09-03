@@ -1,0 +1,4 @@
+generator,pmin_mw,pmax_mw,cost_usd_per_mwh,dispatch_mw,operating_cost_usd
+G1,20.0,100.0,10.0,100.0,1000.0
+G2,10.0,80.0,20.0,50.0,1000.0
+G3,0.0,60.0,35.0,0.0,0.0

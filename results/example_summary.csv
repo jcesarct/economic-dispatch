@@ -1,0 +1,2 @@
+demand_mw,duration_h,total_generation_mw,balance_residual_mw,total_cost_usd,solver_status
+150.0,1.0,150.0,0.0,2000.0,OPTIMAL

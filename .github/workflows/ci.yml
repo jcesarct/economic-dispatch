@@ -1,0 +1,25 @@
+name: Julia CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Julia
+        uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.10'
+
+      - name: Instanciar el entorno
+        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
+
+      - name: Ejecutar pruebas
+        run: julia --project=. test/runtests.jl
