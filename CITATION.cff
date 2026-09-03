@@ -3,10 +3,10 @@ message: "Si utiliza este software, cite la versión archivada en Zenodo."
 title: "Despacho económico uninodal en Julia"
 type: software
 authors:
-  - family-names: "APELLIDO"
-    given-names: "NOMBRE"
-    affiliation: "INSTITUCIÓN"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "CUENCA"
+    given-names: "JULIO"
+    affiliation: "UNIVERSIDAD NACIONAL DE LOJA"
+    orcid: "https://orcid.org/0000-0002-8803-6512"
 abstract: "Ejemplo reproducible de despacho económico lineal con tres generadores y una carga."
 keywords:
   - economic dispatch
