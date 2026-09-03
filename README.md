@@ -231,8 +231,8 @@ integración GitHub-Zenodo. Los datos y resultados extensos se publicarán como 
 registro independiente de tipo *Dataset* y se relacionarán con el DOI del
 software.
 
-- DOI del software: `PENDIENTE`
-- DOI de los datos y resultados: `PENDIENTE`
+- DOI del software: https://doi.org/10.5281/zenodo.22286302
+- DOI de los datos y resultados: https://doi.org/10.5281/zenodo.22286302
 
 ## Citación
 
