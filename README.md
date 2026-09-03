@@ -257,6 +257,6 @@ requests*. Consulte [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contacto
 
-**NOMBRE DEL RESPONSABLE**  
-Institución: **INSTITUCIÓN**  
-Correo: **CORREO INSTITUCIONAL**
+**JULIO CUENCA TINITANA**  
+Institución: **UNIVERSIDAD NACIONAL DE LOJA**  
+Correo: **julio.cuenca@unl.edu.ec**
